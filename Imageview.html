@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Image Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #qrCodeImage {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, Student!</h1>
+    <img id="qrCodeImage" src="<?php echo $qrCode; ?>" alt="Student QR Code">
+    <!-- You can add more information or features as needed -->
+    <script>
+        // Any additional client-side logic can be added here
+    </script>
+</body>
+</html>
